@@ -17,5 +17,4 @@ def are_valid_groups(studentNums, groups):
             return False
     return True
 
-#New testing code
 print(are_valid_groups(["1","2","3","4"],[["1","7","5"],["2","6","5"],["3","4"]]))
