@@ -2,7 +2,8 @@ def are_valid_groups(studentNums, groups):
     #All students are by default not in a group
     isStudentInGroup = []
     for x in range(len(studentNums)):
-        isStudentInGroup[x] = False
+        isStudentInGroup.append([False])
+        print("false\n")
     #If students are in a group, set their respective index to true
         for group in groups:
             if studentNums[x] in group:
