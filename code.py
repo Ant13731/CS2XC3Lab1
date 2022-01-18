@@ -6,7 +6,7 @@ def are_valid_groups(studentNums, groups):
     #If students are in a group, set their respective index to true
         for group in groups:
             if studentNums[x] in group:
-                isStudentInGroup = True
+                isStudentInGroup[x] = True
                 break
     #If every student is in a group, return true, else return false
     for student in isStudentInGroup:
