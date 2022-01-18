@@ -16,5 +16,3 @@ def are_valid_groups(studentNums, groups):
         if student == 0 or student > 1:
             return False
     return True
-#comment
-print(are_valid_groups(["1234", "3920", "3402", "2390"], [["9303", "3920", "1234" ], ["2303", "3402" ], ["2390", "0000"]]))
