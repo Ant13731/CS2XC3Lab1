@@ -16,3 +16,4 @@ def are_valid_groups(studentNums, groups):
         if student == 0 or student > 1:
             return False
     return True
+print(are_valid_groups(["1","2","3","4"],[["1","7","5"],["2","6","5"],["3","4"]]))
