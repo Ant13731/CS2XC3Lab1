@@ -13,3 +13,5 @@ def are_valid_groups(studentNums, groups):
         if student is False:
             return False
     return True
+
+print(are_valid_groups(["1234", "3920", "3402", "2390"], [["0000", "9303", "3920" ], ["7383", "2303", "3402", "1234" ], ["2390"]]))
