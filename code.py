@@ -18,4 +18,5 @@ def are_valid_groups(studentNums, groups):
     return True
 
 #New testing code
-print(are_valid_groups(["1","2","3","4"],[["1","7","5"],["2","6","5"],["3","4"]]))
+print(are_valid_groups(["1234", "3920", "3402", "2390"], [["9303" ], ["9999"], ["1111"]]))
+
